@@ -8,13 +8,14 @@
 # Lasse Liehu <larso@gmx.com>, 2016
 # nomen omen, 2017-2018
 # Rauli L. <rauli.laine@iki.fi>, 2016
+# Matti Niemelä <niememat@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-12-04 23:06+0000\n"
-"PO-Revision-Date: 2020-09-12 08:19+0000\n"
-"Last-Translator: Christopher Schramm <github@cschramm.eu>\n"
+"POT-Creation-Date: 2021-01-13 07:33+0000\n"
+"PO-Revision-Date: 2021-05-30 23:33+0000\n"
+"Last-Translator: Matti Niemelä <niememat@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/blueman/stable/"
 "fi/>\n"
 "Language: fi\n"
@@ -22,7 +23,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.3-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #: ../data/ui/adapters-tab.ui.h:1
 msgid "<b>Visibility Setting</b>"
@@ -885,10 +886,8 @@ msgid "Adapter selection"
 msgstr "Sovittimen valinta"
 
 #: ../blueman/gui/DeviceSelectorWidget.py:43
-#, fuzzy
-#| msgid "Disconnecting..."
 msgid "Discovering…"
-msgstr "Katkaistaan yhteyttä..."
+msgstr "Havaittavissa…"
 
 #. translators: device class
 #: ../blueman/DeviceClass.py:39 ../blueman/DeviceClass.py:63
