@@ -13,12 +13,13 @@
 # Willy Sudiarto Raharjo <willysr@slackware-id.org>, 2014
 # zk, 2015
 # Reza Almanda <rezaalmanda27@gmail.com>, 2021.
+# Jacque Fresco <aidter@use.startmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: blueman-project\n"
 "Report-Msgid-Bugs-To: https://github.com/blueman-project/blueman/issues\n"
-"POT-Creation-Date: 2021-04-17 10:04+0200\n"
-"PO-Revision-Date: 2021-05-01 20:37+0000\n"
+"POT-Creation-Date: 2021-06-07 08:58+0200\n"
+"PO-Revision-Date: 2021-06-14 07:22+0000\n"
 "Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/blueman/"
 "blueman/id/>\n"
@@ -511,10 +512,8 @@ msgid "Show _Statusbar"
 msgstr "Tampilkan Batang _Status"
 
 #: blueman/gui/manager/ManagerMenu.py:78
-#, fuzzy
-#| msgid "Rename device"
 msgid "Hide _unnamed devices"
-msgstr "Ubah nama perangkat"
+msgstr "Sembunyikan _perangkat tanpa nama"
 
 #: blueman/gui/manager/ManagerMenu.py:88
 msgid "S_ort By"
@@ -552,26 +551,20 @@ msgid "_Search"
 msgstr "_Cari"
 
 #: blueman/gui/manager/ManagerMenu.py:155
-#, fuzzy
-#| msgid "Adapter Preferences"
 msgid "_Preferences"
-msgstr "Preferensi Adapter"
+msgstr "_Preferensi"
 
 #: blueman/gui/manager/ManagerMenu.py:164 blueman/plugins/applet/ExitItem.py:12
-#, fuzzy
-#| msgid "Exit"
 msgid "_Exit"
-msgstr "Keluar"
+msgstr "_Keluar"
 
 #. translators: device class
 #: blueman/gui/manager/ManagerDeviceList.py:276
 #: blueman/gui/manager/ManagerDeviceList.py:301 blueman/DeviceClass.py:24
 #: blueman/DeviceClass.py:29 blueman/DeviceClass.py:46
 #: blueman/DeviceClass.py:80 blueman/DeviceClass.py:121
-#, fuzzy
-#| msgid "uncategorized"
 msgid "Uncategorized"
-msgstr "tidak terkategorisasi"
+msgstr "Tidak terkategorisasi"
 
 #: blueman/gui/manager/ManagerDeviceList.py:479
 msgid "<b>Trusted and Paired</b>"
@@ -586,10 +579,8 @@ msgid "<b>Trusted</b>"
 msgstr "<b>Terpercaya</b>"
 
 #: blueman/gui/manager/ManagerDeviceList.py:502
-#, fuzzy
-#| msgid "<b>Connect To:</b>"
 msgid "<b>Connected</b>"
-msgstr "<b>Terhubung ke:</b>"
+msgstr "<b>Terhubung</b>"
 
 #: blueman/gui/manager/ManagerDeviceList.py:517
 msgid "Poor"
@@ -631,7 +622,7 @@ msgstr ""
 #: blueman/gui/manager/ManagerDeviceList.py:538
 #, python-format
 msgid "Link Quality: %(lq)u%%"
-msgstr ""
+msgstr "Kualitas tautan: %(lq)u%%%%"
 
 #: blueman/gui/manager/ManagerDeviceList.py:542
 msgid "Low"
@@ -657,7 +648,7 @@ msgstr ""
 
 #: blueman/gui/manager/ManagerDeviceMenu.py:131
 msgid "Success!"
-msgstr "Berhasil"
+msgstr "Berhasil!"
 
 #: blueman/gui/manager/ManagerDeviceMenu.py:138
 msgid "Failed"
@@ -695,7 +686,7 @@ msgstr "Terlihat sementara"
 
 #: blueman/gui/manager/ManagerDeviceMenu.py:218
 msgid "Connection Failed: "
-msgstr "Sambungan Gagal"
+msgstr "Sambungan Gagal: "
 
 #: blueman/gui/manager/ManagerDeviceMenu.py:285
 #, fuzzy
@@ -754,10 +745,8 @@ msgid "R_ename device…"
 msgstr "Ubah nama perangkat"
 
 #: blueman/gui/manager/ManagerDeviceMenu.py:402
-#, fuzzy
-#| msgid "Remove"
 msgid "_Remove…"
-msgstr "Hapus"
+msgstr "_Hapus…"
 
 #: blueman/gui/manager/ManagerProgressbar.py:44
 msgid "Cancel Operation"
@@ -1285,7 +1274,7 @@ msgstr ""
 
 #: blueman/DeviceClass.py:190
 msgid "Mouse"
-msgstr ""
+msgstr "Tetikus"
 
 #: blueman/DeviceClass.py:191
 msgid "Joystick"
@@ -1435,63 +1424,63 @@ msgstr ""
 
 #: blueman/Sdp.py:88
 msgid "SDP"
-msgstr ""
+msgstr "SDP"
 
 #: blueman/Sdp.py:89
 msgid "UDP"
-msgstr ""
+msgstr "UDP"
 
 #: blueman/Sdp.py:90
 msgid "RFCOMM"
-msgstr ""
+msgstr "RFCOMM"
 
 #: blueman/Sdp.py:91
 msgid "TCP"
-msgstr ""
+msgstr "TCP"
 
 #: blueman/Sdp.py:92
 msgid "TCS-BIN"
-msgstr ""
+msgstr "TCS-BIN"
 
 #: blueman/Sdp.py:93
 msgid "TCS-AT"
-msgstr ""
+msgstr "TCS-AT"
 
 #: blueman/Sdp.py:94
 msgid "ATT"
-msgstr ""
+msgstr "ATT"
 
 #: blueman/Sdp.py:95
 msgid "OBEX"
-msgstr ""
+msgstr "OBEX"
 
 #: blueman/Sdp.py:96
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: blueman/Sdp.py:97
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 #: blueman/Sdp.py:98
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #: blueman/Sdp.py:99
 msgid "WSP"
-msgstr ""
+msgstr "WSP"
 
 #: blueman/Sdp.py:100
 msgid "BNEP"
-msgstr ""
+msgstr "BNEP"
 
 #: blueman/Sdp.py:101
 msgid "UPnP/ESDP"
-msgstr ""
+msgstr "UPnP/ESDP"
 
 #: blueman/Sdp.py:102
 msgid "HIDP"
-msgstr ""
+msgstr "HIDP"
 
 #: blueman/Sdp.py:103
 msgid "Hardcopy Control Channel"
@@ -1507,15 +1496,15 @@ msgstr ""
 
 #: blueman/Sdp.py:106
 msgid "AVCTP"
-msgstr ""
+msgstr "AVCTP"
 
 #: blueman/Sdp.py:107
 msgid "AVDTP"
-msgstr ""
+msgstr "AVDTP"
 
 #: blueman/Sdp.py:108
 msgid "CMTP"
-msgstr ""
+msgstr "CMTP"
 
 #: blueman/Sdp.py:109
 msgid "UDI_C-Plane"
@@ -1602,12 +1591,13 @@ msgid "Video Conferencing"
 msgstr ""
 
 #: blueman/Sdp.py:131
+#, fuzzy
 msgid "Intercom"
-msgstr ""
+msgstr "Radio"
 
 #: blueman/Sdp.py:132
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 #: blueman/Sdp.py:133
 msgid "Headset Audio Gateway"
@@ -1615,15 +1605,15 @@ msgstr ""
 
 #: blueman/Sdp.py:134
 msgid "WAP"
-msgstr ""
+msgstr "WAP"
 
 #: blueman/Sdp.py:135
 msgid "WAP Client"
-msgstr ""
+msgstr "Klien WAP"
 
 #: blueman/Sdp.py:136
 msgid "PANU"
-msgstr ""
+msgstr "PANU"
 
 #: blueman/Sdp.py:137
 msgid "Network Access Point"
@@ -1703,15 +1693,16 @@ msgstr ""
 
 #: blueman/Sdp.py:157
 msgid "UDI-MT"
-msgstr ""
+msgstr "UDI-MT"
 
 #: blueman/Sdp.py:158
 msgid "UDI-TA"
-msgstr ""
+msgstr "UDI-TA"
 
 #: blueman/Sdp.py:159
+#, fuzzy
 msgid "Audio/Video"
-msgstr ""
+msgstr "A/V"
 
 #: blueman/Sdp.py:160
 msgid "SIM Access (SAP)"
@@ -1747,7 +1738,7 @@ msgstr "Network Access Point (NAP)"
 
 #: blueman/Sdp.py:168
 msgid "GNSS"
-msgstr ""
+msgstr "GNSS"
 
 #: blueman/Sdp.py:169
 msgid "GNSS Server"
@@ -1827,7 +1818,7 @@ msgstr ""
 
 #: blueman/Sdp.py:186
 msgid "HDP"
-msgstr ""
+msgstr "HDP"
 
 #: blueman/Sdp.py:187
 #, fuzzy
@@ -2021,7 +2012,7 @@ msgstr "Manajer Perangkat"
 
 #: blueman/Sdp.py:230
 msgid "Appearance"
-msgstr ""
+msgstr "Penampilan"
 
 #: blueman/Sdp.py:231
 msgid "Peripheral Privacy Flag"
@@ -2320,7 +2311,7 @@ msgstr ""
 "Menyediakan dukungan untuk Personal Area Networking (PAN) diperkenalkan pada "
 "NetworkManager 0.8"
 
-#: blueman/plugins/applet/DBusService.py:46
+#: blueman/plugins/applet/DBusService.py:47
 msgid "Provides DBus API for other Blueman components"
 msgstr "Menyediakan DBus API untuk komponen Blueman lainnya"
 

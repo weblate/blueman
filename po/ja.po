@@ -12,13 +12,14 @@
 # Rockers <sumorock@hotmail.com>, 2018
 # Takuya Ohe <hi@tohe.xyz>
 # Jacque Fresco <aidter@use.startmail.com>, 2021.
+# Shinichi Abe <shin1.abe@nifty.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: blueman-project\n"
 "Report-Msgid-Bugs-To: https://github.com/blueman-project/blueman/issues\n"
-"POT-Creation-Date: 2021-04-17 10:04+0200\n"
-"PO-Revision-Date: 2021-05-17 08:55+0000\n"
-"Last-Translator: Jacque Fresco <aidter@use.startmail.com>\n"
+"POT-Creation-Date: 2021-06-07 08:58+0200\n"
+"PO-Revision-Date: 2021-06-27 21:52+0000\n"
+"Last-Translator: Shinichi Abe <shin1.abe@nifty.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/blueman/blueman/"
 "ja/>\n"
 "Language: ja\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #: data/ui/adapters-tab.ui:29
 msgid "<b>Visibility Setting</b>"
@@ -1284,7 +1285,7 @@ msgstr ""
 
 #: blueman/DeviceClass.py:188
 msgid "Human Interface Device (HID)"
-msgstr ""
+msgstr "Human Interface Device (HID)"
 
 #: blueman/DeviceClass.py:190
 msgid "Mouse"
@@ -1525,8 +1526,9 @@ msgid "UDI_C-Plane"
 msgstr "UDI_C-Plane"
 
 #: blueman/Sdp.py:110 blueman/Sdp.py:111
+#, fuzzy
 msgid "Multi-Channel Adaptation Protocol (MCAP)"
-msgstr ""
+msgstr "マルチ-チャンネル 対応 プロトコル (MCAP)"
 
 #: blueman/Sdp.py:112
 msgid "L2CAP"
@@ -1552,89 +1554,102 @@ msgstr "シリアルポート"
 
 #: blueman/Sdp.py:117
 msgid "LAN Access Using PPP"
-msgstr ""
+msgstr "PPP を使用する LAN 接続"
 
 #: blueman/Sdp.py:118
+#, fuzzy
 msgid "Dialup Networking (DUN)"
-msgstr "ダイアルアップネットワーキング (DUN)"
+msgstr "ダイアルアップ ネットワーキング (DUN)"
 
 #: blueman/Sdp.py:119
 msgid "IrMC Sync"
-msgstr ""
+msgstr "IrMC 同期"
 
 #: blueman/Sdp.py:120
 msgid "OBEX Object Push"
 msgstr ""
 
 #: blueman/Sdp.py:121
-#, fuzzy
-#| msgid "Bluetooth File Transfer"
 msgid "OBEX File Transfer"
-msgstr "Bluetooth ファイル転送"
+msgstr "OBEX ファイル 転送"
 
 #: blueman/Sdp.py:122
 msgid "IrMC Sync Command"
-msgstr ""
+msgstr "IrMC 同期 コマンド"
 
 #: blueman/Sdp.py:124
 msgid "Cordless Telephony"
-msgstr ""
+msgstr "コードレス 電話"
 
 #: blueman/Sdp.py:125
+#, fuzzy
 msgid "Audio Source"
-msgstr "オーディオソース"
+msgstr "オーディオ ソース"
 
 #: blueman/Sdp.py:126
+#, fuzzy
 msgid "Audio Sink"
-msgstr "オーディオシンク"
+msgstr "オーディオ シンク"
 
 #: blueman/Sdp.py:127
+#, fuzzy
 msgid "Remote Control Target"
-msgstr ""
+msgstr "リモート コントロール ターゲット"
 
 #: blueman/Sdp.py:128
+#, fuzzy
 msgid "Advanced Audio"
-msgstr ""
+msgstr "先進的 オーディオ"
 
 #: blueman/Sdp.py:129
+#, fuzzy
 msgid "Remote Control"
-msgstr ""
+msgstr "リモート コントロール"
 
 #: blueman/Sdp.py:130
+#, fuzzy
 msgid "Video Conferencing"
-msgstr ""
+msgstr "ビデオ 会議"
 
 #: blueman/Sdp.py:131
+#, fuzzy
 msgid "Intercom"
-msgstr ""
+msgstr "インターコム"
 
 #: blueman/Sdp.py:132
+#, fuzzy
 msgid "Fax"
-msgstr ""
+msgstr "Fax"
 
 #: blueman/Sdp.py:133
+#, fuzzy
 msgid "Headset Audio Gateway"
-msgstr ""
+msgstr "ヘッドセット オーディオ ゲートウェイ"
 
 #: blueman/Sdp.py:134
+#, fuzzy
 msgid "WAP"
-msgstr ""
+msgstr "WAP"
 
 #: blueman/Sdp.py:135
+#, fuzzy
 msgid "WAP Client"
-msgstr ""
+msgstr "WAP クライアント"
 
 #: blueman/Sdp.py:136
+#, fuzzy
 msgid "PANU"
-msgstr ""
+msgstr "PANU"
 
 #: blueman/Sdp.py:137
+#, fuzzy
 msgid "Network Access Point"
-msgstr "ネットワークアクセスポイント"
+msgstr "ネットワーク アクセス ポイント"
 
 #: blueman/Sdp.py:138
+#, fuzzy
 msgid "Group Network"
-msgstr "グループネットワーク"
+msgstr "グループ ネットワーク"
 
 #: blueman/Sdp.py:139
 msgid "DirectPrinting (BPP)"
@@ -1661,8 +1676,9 @@ msgid "ImagingReferencedObjects (BIP)"
 msgstr ""
 
 #: blueman/Sdp.py:146
+#, fuzzy
 msgid "Handsfree Audio Gateway"
-msgstr ""
+msgstr "ハンズフリー オーディオ ゲートウェイ"
 
 #: blueman/Sdp.py:147
 msgid "DirectPrintingReferenceObjectsService (BPP)"
@@ -1673,36 +1689,43 @@ msgid "ReflectedUI (BPP)"
 msgstr ""
 
 #: blueman/Sdp.py:149
+#, fuzzy
 msgid "Basic Printing (BPP)"
-msgstr ""
+msgstr "基本印刷 (BPP)"
 
 #: blueman/Sdp.py:150
+#, fuzzy
 msgid "Printing Status (BPP)"
-msgstr ""
+msgstr "印刷 状況 (BPP)"
 
 #: blueman/Sdp.py:151
+#, fuzzy
 msgid "Human Interface Device Service (HID)"
-msgstr ""
+msgstr "ヒューマン インターフェース デバイス サービス (HID)"
 
 #: blueman/Sdp.py:152
 msgid "HardcopyCableReplacement (HCR)"
 msgstr ""
 
 #: blueman/Sdp.py:153
+#, fuzzy
 msgid "HCR_Print (HCR)"
-msgstr "HCR_Print (HCR)"
+msgstr "HCR_印刷 (HCR)"
 
 #: blueman/Sdp.py:154
+#, fuzzy
 msgid "HCR_Scan (HCR)"
-msgstr "HCR_Scan (HCR)"
+msgstr "HCR_スキャン (HCR)"
 
 #: blueman/Sdp.py:155
+#, fuzzy
 msgid "Common ISDN Access (CIP)"
-msgstr ""
+msgstr "標準 ISDN アクセス (CIP)"
 
 #: blueman/Sdp.py:156
+#, fuzzy
 msgid "VideoConferencingGW (VCP)"
-msgstr ""
+msgstr "ビデオ会議GW (VCP)"
 
 #: blueman/Sdp.py:157
 msgid "UDI-MT"
@@ -1713,40 +1736,45 @@ msgid "UDI-TA"
 msgstr "UDI-TA"
 
 #: blueman/Sdp.py:159
+#, fuzzy
 msgid "Audio/Video"
-msgstr ""
+msgstr "オーディオ/ビデオ"
 
 #: blueman/Sdp.py:160
+#, fuzzy
 msgid "SIM Access (SAP)"
-msgstr ""
+msgstr "SIM アクセス (SAP)"
 
 #: blueman/Sdp.py:161
 msgid "Phonebook Access (PBAP) - PCE"
-msgstr ""
+msgstr "電話帳 アクセス (PBAP) - PCE"
 
 #: blueman/Sdp.py:162
+#, fuzzy
 msgid "Phonebook Access (PBAP) - PSE"
-msgstr ""
+msgstr "電話帳 アクセス (PBAP) - PSE"
 
 #: blueman/Sdp.py:163
 #, fuzzy
 #| msgid "Network Access Point (NAP)"
 msgid "Phonebook Access (PBAP)"
-msgstr "ネットワークアクセスポイント (NAP)"
+msgstr "電話帳 アクセス (PBAP)"
 
 #: blueman/Sdp.py:165
+#, fuzzy
 msgid "Message Access Server"
-msgstr ""
+msgstr "メッセージ アクセス サーバー"
 
 #: blueman/Sdp.py:166
+#, fuzzy
 msgid "Message Notification Server"
-msgstr ""
+msgstr "メッセージ 通知 サーバー"
 
 #: blueman/Sdp.py:167
 #, fuzzy
 #| msgid "Network Access Point (NAP)"
 msgid "Message Access Profile (MAP)"
-msgstr "ネットワークアクセスポイント (NAP)"
+msgstr "メッセージ アクセス プロファイル (MAP)"
 
 #: blueman/Sdp.py:168
 msgid "GNSS"
@@ -1822,11 +1850,12 @@ msgstr "オーディオソース"
 #, fuzzy
 #| msgid "Audio Sink"
 msgid "Video Sink"
-msgstr "オーディオシンク"
+msgstr "ビデオ シンク"
 
 #: blueman/Sdp.py:185
+#, fuzzy
 msgid "Video Distribution"
-msgstr ""
+msgstr "ビデオ 配信"
 
 #: blueman/Sdp.py:186
 msgid "HDP"
@@ -1836,11 +1865,12 @@ msgstr ""
 #, fuzzy
 #| msgid "Audio Source"
 msgid "HDP Source"
-msgstr "オーディオソース"
+msgstr "HDP ソース"
 
 #: blueman/Sdp.py:188
+#, fuzzy
 msgid "HDP Sink"
-msgstr ""
+msgstr "HDP シンク"
 
 #: blueman/Sdp.py:189
 msgid "Generic Access"
@@ -1855,18 +1885,18 @@ msgid "Immediate Alert"
 msgstr ""
 
 #: blueman/Sdp.py:192
+#, fuzzy
 msgid "Link Loss"
-msgstr ""
+msgstr "リンク 損失"
 
 #: blueman/Sdp.py:193
+#, fuzzy
 msgid "Tx Power"
-msgstr ""
+msgstr "Tx 出力"
 
 #: blueman/Sdp.py:194
-#, fuzzy
-#| msgid "Rename device"
 msgid "Current Time Service"
-msgstr "デバイス名の変更"
+msgstr "現在 時刻 サービス"
 
 #: blueman/Sdp.py:195
 msgid "Reference Time Update Service"
@@ -1877,22 +1907,25 @@ msgid "Next DST Change Service"
 msgstr ""
 
 #: blueman/Sdp.py:197
+#, fuzzy
 msgid "Glucose"
-msgstr ""
+msgstr "血糖値"
 
 #: blueman/Sdp.py:198
+#, fuzzy
 msgid "Health Thermometer"
-msgstr ""
+msgstr "体温計"
 
 #: blueman/Sdp.py:199
 #, fuzzy
 #| msgid "Show device information"
 msgid "Device Information"
-msgstr "デバイスの情報を表示します"
+msgstr "デバイス 情報"
 
 #: blueman/Sdp.py:200
+#, fuzzy
 msgid "Heart Rate"
-msgstr ""
+msgstr "心拍計"
 
 #: blueman/Sdp.py:201
 msgid "Phone Alert Status Service"
@@ -1902,83 +1935,98 @@ msgstr ""
 #, fuzzy
 #| msgid "Local Services"
 msgid "Battery Service"
-msgstr "ローカルサービス"
+msgstr "バッテリー サービス"
 
 #: blueman/Sdp.py:203
+#, fuzzy
 msgid "Blood Pressure"
-msgstr ""
+msgstr "血圧"
 
 #: blueman/Sdp.py:204
+#, fuzzy
 msgid "Alert Notification Service"
-msgstr ""
+msgstr "警告 通知 サービス"
 
 #: blueman/Sdp.py:205
 msgid "Human Interface Device"
 msgstr ""
 
 #: blueman/Sdp.py:206
+#, fuzzy
 msgid "Scan Parameters"
-msgstr ""
+msgstr "スキャン パラメーター"
 
 #: blueman/Sdp.py:207
+#, fuzzy
 msgid "Running Speed and Cadence"
-msgstr ""
+msgstr "ランニング 速度 ＆ ケーデンス"
 
 #: blueman/Sdp.py:208
 msgid "Automation IO"
 msgstr ""
 
 #: blueman/Sdp.py:209
+#, fuzzy
 msgid "Cycling Speed and Cadence"
-msgstr ""
+msgstr "サイクリング 速度 ＆ ケーデンス"
 
 #: blueman/Sdp.py:210
+#, fuzzy
 msgid "Cycling Power"
-msgstr ""
+msgstr "サイクリング パワー"
 
 #: blueman/Sdp.py:211
+#, fuzzy
 msgid "Location and Navigation"
-msgstr ""
+msgstr "位置情報 ＆ ナビゲーション"
 
 #: blueman/Sdp.py:212
+#, fuzzy
 msgid "Environmental Sensing"
-msgstr ""
+msgstr "環境 センシング"
 
 #: blueman/Sdp.py:213
+#, fuzzy
 msgid "Body Composition"
-msgstr ""
+msgstr "体格"
 
 #: blueman/Sdp.py:214
+#, fuzzy
 msgid "User Data"
-msgstr ""
+msgstr "ユーザー データ"
 
 #: blueman/Sdp.py:215
+#, fuzzy
 msgid "Weight Scale"
-msgstr ""
+msgstr "体重計"
 
 #: blueman/Sdp.py:216
 msgid "Bond Management"
 msgstr ""
 
 #: blueman/Sdp.py:217
+#, fuzzy
 msgid "Continuous Glucose Monitoring"
-msgstr ""
+msgstr "連続 血糖値 モニター"
 
 #: blueman/Sdp.py:218
+#, fuzzy
 msgid "Internet Protocol Support"
-msgstr ""
+msgstr "インターネット プロトコル サポート"
 
 #: blueman/Sdp.py:219
 msgid "Indoor Positioning"
 msgstr ""
 
 #: blueman/Sdp.py:220
+#, fuzzy
 msgid "Pulse Oximeter"
-msgstr ""
+msgstr "脈拍計"
 
 #: blueman/Sdp.py:221
+#, fuzzy
 msgid "HTTP Proxy"
-msgstr ""
+msgstr "HTTP プロキシ"
 
 #: blueman/Sdp.py:222
 msgid "Transport Discovery"
@@ -1988,133 +2036,150 @@ msgstr ""
 #, fuzzy
 #| msgid "Transfer"
 msgid "Object Transfer"
-msgstr "転送"
+msgstr "オブジェクト転送"
 
 #: blueman/Sdp.py:224
 #, fuzzy
 #| msgid "applet"
 msgid "AppleAgent"
-msgstr "アプレット"
+msgstr "Appleエージェント"
 
 #: blueman/Sdp.py:225
 #, fuzzy
 #| msgid "Pair Device"
 msgid "Primary Service"
-msgstr "デバイスとペアリングする"
+msgstr "プライマリ サービス"
 
 #: blueman/Sdp.py:226
 #, fuzzy
 #| msgid "Search for nearby devices"
 msgid "Secondary Service"
-msgstr "付近のデバイスを検索"
+msgstr "セカンダリ サービス"
 
 #: blueman/Sdp.py:227
 msgid "Include"
 msgstr ""
 
 #: blueman/Sdp.py:228
+#, fuzzy
 msgid "Characteristic Declaration"
-msgstr ""
+msgstr "特性値"
 
 #: blueman/Sdp.py:229
 #, fuzzy
 #| msgid "Device Manager"
 msgid "Device Name"
-msgstr "デバイスマネージャー"
+msgstr "デバイス 名"
 
 #: blueman/Sdp.py:230
+#, fuzzy
 msgid "Appearance"
-msgstr ""
+msgstr "外観"
 
 #: blueman/Sdp.py:231
+#, fuzzy
 msgid "Peripheral Privacy Flag"
-msgstr ""
+msgstr "周辺機器 プライバシー フラグ"
 
 #: blueman/Sdp.py:232
 #, fuzzy
 #| msgid "Recent _Connections"
 msgid "Reconnection Address"
-msgstr "最近使用した接続(_C)"
+msgstr "再接続 アドレス"
 
 #: blueman/Sdp.py:233
+#, fuzzy
 msgid "Peripheral Preferred Connection Parameters"
-msgstr ""
+msgstr "周辺機器 優先 接続 パラメータ"
 
 #: blueman/Sdp.py:234
 #, fuzzy
 #| msgid "Device Manager"
 msgid "Service Changed"
-msgstr "デバイスマネージャー"
+msgstr "サービス 変更"
 
 #: blueman/Sdp.py:235
+#, fuzzy
 msgid "System ID"
-msgstr ""
+msgstr "システム ID"
 
 #: blueman/Sdp.py:236
+#, fuzzy
 msgid "Model Number String"
-msgstr ""
+msgstr "モデル 番号 文字列"
 
 #: blueman/Sdp.py:237
+#, fuzzy
 msgid "Serial Number String"
-msgstr ""
+msgstr "シリアル 番号 文字列"
 
 #: blueman/Sdp.py:238
+#, fuzzy
 msgid "Firmware Revision String"
-msgstr ""
+msgstr "ファームウェア リビジョン 文字列"
 
 #: blueman/Sdp.py:239
+#, fuzzy
 msgid "Hardware Revision String"
-msgstr ""
+msgstr "ハードウェア リビジョン 文字列"
 
 #: blueman/Sdp.py:240
+#, fuzzy
 msgid "Software Revision String"
-msgstr ""
+msgstr "ソフトウェア リビジョン 文字列"
 
 #: blueman/Sdp.py:241
+#, fuzzy
 msgid "Manufacturer Name String"
-msgstr ""
+msgstr "製造者 名 文字列"
 
 #: blueman/Sdp.py:242
 msgid "PnP ID"
 msgstr ""
 
 #: blueman/Sdp.py:243
+#, fuzzy
 msgid "Characteristic Extended Properties"
-msgstr ""
+msgstr "固有 拡張 プロパティ"
 
 #: blueman/Sdp.py:244
+#, fuzzy
 msgid "Characteristic User Description"
-msgstr ""
+msgstr "固有 ユーザー 説明"
 
 #: blueman/Sdp.py:245
+#, fuzzy
 msgid "Client Characteristic Configuration"
-msgstr ""
+msgstr "クライアント 固有 構成"
 
 #: blueman/Sdp.py:246
+#, fuzzy
 msgid "Server Characteristic Configuration"
-msgstr ""
+msgstr "サーバー 固有 構成"
 
 #: blueman/Sdp.py:247
+#, fuzzy
 msgid "Characteristic Presentation Format"
-msgstr ""
+msgstr "固有 プレゼンテーション 形式"
 
 #: blueman/Sdp.py:248
+#, fuzzy
 msgid "Characteristic Aggregate Format"
-msgstr ""
+msgstr "固有 集計 形式"
 
 #: blueman/Sdp.py:249
+#, fuzzy
 msgid "Valid Range"
-msgstr ""
+msgstr "有効 範囲"
 
 #: blueman/Sdp.py:250
+#, fuzzy
 msgid "External Report Reference"
-msgstr ""
+msgstr "外部 Report Reference"
 
 #: blueman/Sdp.py:251
-#, fuzzy
-#| msgid "Adapter Preferences"
 msgid "Report Reference"
-msgstr "アダプター設定"
+msgstr "Report Reference"
 
 #: blueman/Sdp.py:378
 #, fuzzy
@@ -2187,7 +2252,7 @@ msgstr "接続しました"
 #: blueman/plugins/applet/AutoConnect.py:50
 #, python-format
 msgid "Automatically connected to %(service)s on %(device)s"
-msgstr ""
+msgstr "デバイス %(device)s の %(service)s へ自動接続しました"
 
 #: blueman/plugins/applet/ConnectionNotifier.py:13
 msgid "Shows desktop notifications when devices get connected or disconnected."
@@ -2319,7 +2384,7 @@ msgid ""
 msgstr ""
 "パーソナルエリアネットワーク (PAN) は NetworkManager 0.8 で利用可能です"
 
-#: blueman/plugins/applet/DBusService.py:46
+#: blueman/plugins/applet/DBusService.py:47
 msgid "Provides DBus API for other Blueman components"
 msgstr "他の Blueman コンポーネントに DBus API を提供します"
 
@@ -2386,20 +2451,16 @@ msgid "Files received"
 msgstr "ファイルを受信しました"
 
 #: blueman/plugins/applet/TransferService.py:334
-#, fuzzy, python-format
-#| msgid "Received %d file in the background"
-#| msgid_plural "Received %d files in the background"
+#, python-format
 msgid "Received %(files)d file in the background"
 msgid_plural "Received %(files)d files in the background"
-msgstr[0] "%d 個のファイルをバックグラウンドで受信しました"
+msgstr[0] "%(files)d 個のファイルをバックグラウンドで受信しました"
 
 #: blueman/plugins/applet/TransferService.py:343
-#, fuzzy, python-format
-#| msgid "Received %d more file in the background"
-#| msgid_plural "Received %d more files in the background"
+#, python-format
 msgid "Received %(files)d more file in the background"
 msgid_plural "Received %(files)d more files in the background"
-msgstr[0] "%d 個以上のファイルをバックグラウンドで受信しました"
+msgstr[0] "%(files)d 個を超えるファイルをバックグラウンドで受信しました"
 
 #: blueman/plugins/applet/KillSwitch.py:37
 msgid ""
@@ -2478,12 +2539,10 @@ msgid "Bluetooth Active"
 msgstr "Bluetooth 有効"
 
 #: blueman/plugins/applet/ShowConnected.py:64
-#, fuzzy, python-format
-#| msgid "<b>%d Active Connection</b>"
-#| msgid_plural "<b>%d Active Connections</b>"
+#, python-format
 msgid "<b>%(connections)d Active Connection</b>"
 msgid_plural "<b>%(connections)d Active Connections</b>"
-msgstr[0] "<b>%d 件のアクティブな接続</b>"
+msgstr[0] "<b>%(connections)d 件のアクティブな接続</b>"
 
 #: blueman/plugins/applet/ShowConnected.py:74
 #: blueman/plugins/applet/PowerManager.py:192
@@ -2505,10 +2564,9 @@ msgid "Adds disconnect menu items"
 msgstr ""
 
 #: blueman/plugins/applet/DisconnectItems.py:40
-#, fuzzy, python-format
-#| msgid "Disconnecting..."
+#, python-format
 msgid "Disconnect %s"
-msgstr "切断中..."
+msgstr "切断 %s"
 
 #: blueman/plugins/applet/DiscvManager.py:16
 msgid ""
